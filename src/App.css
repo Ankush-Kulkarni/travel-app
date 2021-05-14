@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home,
+.photos,
+.about,
+.signUp {
+  top: 80px;
+  height: 90vh;
+  display: flex;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+  color: #eeebdd;
+}
+
+.home {
+  background-image: url("./Images/benjamin-davies-JrZ1yE1PjQ0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photos {
+  background-image: url("./Images/adam-kool-ndN00KmbJ1c-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  background-image: url("./Images/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signUp {
+  background-image: url("./Images/boxed-water-is-better-G15G-Any-D0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
